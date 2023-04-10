@@ -69,7 +69,8 @@ func main() {
 	staticFs := http.FileServer(getStaticFiles())
 
 	mux := http.NewServeMux()
-
+        the_answer:=42
+fmt.Printf("Theanswer ")
 	// routes
 	mux.HandleFunc("/api", receiveJSONHandler)
 	mux.Handle("/", staticFs)
