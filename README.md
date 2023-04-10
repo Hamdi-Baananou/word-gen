@@ -3,7 +3,7 @@
 2. Set $GOPATH `export GOPATH="${HOME}/go"`
 3. Set $PATH `export PATH=$PATH:$(go env GOPATH)/bin`
 5. Install goconvey - `go get github.com/smartystreets/goconvey`
-6666
+Hello
 ## Git
 We use git hooks to standardize development on the project. Please run `make git-hooks` to get started.
 
