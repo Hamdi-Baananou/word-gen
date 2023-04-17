@@ -69,7 +69,7 @@ func main() {
 	staticFs := http.FileServer(getStaticFiles())
 
 	mux := http.NewServeMux()
-       
+
 	// routes
 	mux.HandleFunc("/api", receiveJSONHandler)
 	mux.Handle("/", staticFs)
